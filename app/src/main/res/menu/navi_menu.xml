@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item1"
+        app:showAsAction = "always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_folder_24"
+        android:title="봤던 매물 다시보기" />
+    <item
+        android:id="@+id/menu_item2"
+        app:showAsAction = "always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_bookmarks_24"
+        android:title="책갈피" />
+    <item
+        android:id="@+id/menu_item3"
+        app:showAsAction = "always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:title="일조량 확인" />
+
+    <item
+        android:id="@+id/menu_item4"
+        app:showAsAction = "always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="환경 설정" />
+    <item
+        android:id="@+id/menu_item5"
+        app:showAsAction = "always"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="내 정보" />
+</menu>
